@@ -1,0 +1,22 @@
+﻿Build started 05-07-2017 15:50:20.
+     1>Project "E:\Test Suite\DumpDWG\dumpdwg.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /I.\inc /I"..\..\..\inc-x64" /I"..\..\..\..\inc-x64" /I"..\..\..\..\..\inc-x64" /AI"..\..\..\inc-x64" /AI"..\..\..\..\inc-x64" /AI"..\..\..\..\..\inc-x64" /AI..\..\..\inc /AI..\..\..\..\inc /AI..\..\..\..\..\inc /Zi /nologo /W3 /WX /Od /D _CONSOLE /D WORLD_DRAW /D _WIN32_IE=0x0600 /D WIN /D WIN32 /D _CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES=1 /D _CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES_COUNT=1 /D _AFXDLL /D UNICODE /D _UNICODE /D _UNICODE /D UNICODE /D _AFXDLL /GF /Gm- /EHsc /RTCc /RTC1 /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"Debug\\" /Fd"Debug\dumpdwg.pdb" /Gd /TP /errorReport:prompt dir.cpp dumpcore.cpp dumpdwg.cpp entitydumper.cpp tinystr.cpp tinyxml.cpp tinyxmlerror.cpp tinyxmlparser.cpp
+         dir.cpp
+         dumpcore.cpp
+     1>dumpcore.cpp(17): fatal error C1083: Cannot open include file: 'adesk.h': No such file or directory
+         dumpdwg.cpp
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+     1>dumpdwg.cpp(25): fatal error C1083: Cannot open include file: 'adesk.h': No such file or directory
+         entitydumper.cpp
+     1>e:\test suite\dumpdwg\entitydumper.h(3): fatal error C1083: Cannot open include file: 'dbents.h': No such file or directory
+         tinystr.cpp
+         tinyxml.cpp
+         tinyxmlerror.cpp
+         tinyxmlparser.cpp
+         Generating Code...
+     1>Done Building Project "E:\Test Suite\DumpDWG\dumpdwg.vcxproj" (Rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:04.73

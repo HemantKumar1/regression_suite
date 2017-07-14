@@ -1,0 +1,33 @@
+﻿Build started 06-07-2017 17:39:55.
+     1>Project "E:\Test Suite\DumpDWG\dumpdwg.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /I..\inc /I"..\..\..\inc-x64" /I"..\..\..\..\inc-x64" /I"..\..\..\..\..\inc-x64" /AI"..\inc-x64" /AI"..\..\inc-x64" /AI"..\..\..\inc-x64" /AI..\inc /AI..\..\inc /AI..\..\..\inc /AI"..\..\..\inc-x64" /AI"..\..\..\..\inc-x64" /AI"..\..\..\..\..\inc-x64" /AI..\..\..\inc /AI..\..\..\..\inc /AI..\..\..\..\..\inc /Zi /nologo /W3 /WX- /Od /Ob2 /Oi /Ot /Oy /GT /GL /D _CONSOLE /D WORLD_DRAW /D _NDEBUG=1 /D NDEBUG=1 /D _WIN32_IE=0x0600 /D WIN /D WIN32 /D _CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES=1 /D _CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES_COUNT=1 /D _AFXDLL /D UNICODE /D _UNICODE /D _UNICODE /D UNICODE /D _AFXDLL /GF /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"Release\\" /Fd"Release\dumpdwg.pdb" /Gd /TP /errorReport:prompt dir.cpp dumpcore.cpp dumpdwg.cpp entitydumper.cpp tinystr.cpp tinyxml.cpp tinyxmlerror.cpp tinyxmlparser.cpp
+         dir.cpp
+         dumpcore.cpp
+         dumpdwg.cpp
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+     1>dumpdwg.cpp(234): warning C4129: 'T' : unrecognized character escape sequence
+     1>dumpdwg.cpp(234): warning C4129: 'S' : unrecognized character escape sequence
+         entitydumper.cpp
+         tinystr.cpp
+         tinyxml.cpp
+         tinyxmlerror.cpp
+         tinyxmlparser.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Test Suite\DumpDWG\\..\..\dumpdwg.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:..\lib /LIBPATH:"..\..\..\lib-x64" /LIBPATH:"..\..\..\..\lib-x64" /LIBPATH:"..\..\..\..\..\lib-x64" rcexelib.obj odbc32.lib odbccp32.lib urlmon.lib wininet.lib ac1st20.lib acdb20.lib acge20.lib acgiapi.lib acISMobj20.lib rxapi.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"E:\Test Suite\DumpDWG\\..\..\dumpdwg.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Test Suite\DumpDWG\\..\..\dumpdwg.lib" /MACHINE:X64 /CLRTHREADATTRIBUTE:STA /CLRIMAGETYPE:IJW /CLRUNMANAGEDCODECHECK Release\dir.obj
+         Release\dumpcore.obj
+         Release\dumpdwg.obj
+         Release\entitydumper.obj
+         Release\tinystr.obj
+         Release\tinyxml.obj
+         Release\tinyxmlerror.obj
+         Release\tinyxmlparser.obj
+            Creating library E:\Test Suite\DumpDWG\\..\..\dumpdwg.lib and object E:\Test Suite\DumpDWG\\..\..\dumpdwg.exp
+         Generating code
+         Finished generating code
+         dumpdwg.vcxproj -> E:\Test Suite\DumpDWG\\..\..\dumpdwg.exe
+     1>Done Building Project "E:\Test Suite\DumpDWG\dumpdwg.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.25
